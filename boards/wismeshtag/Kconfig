@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 - Bastien BUIL
+# SPDX-License-Identifier: MIT
+
+config BOARD
+    default "wismeshtag" if BOARD_WISMESHTAG
+
+config BOARD_WISMESHTAG
+    bool
+    default y
+    select CPU_MODEL_NRF52840XXAA
+    select BOARD_COMMON_NRF52
+
+source "$(RIOTBOARD)/common/nrf52/Kconfig"

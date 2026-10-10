@@ -1,0 +1,11 @@
+CPU_MODEL = nrf52840xxaa
+
+FEATURES_PROVIDED += board_bat_voltage
+FEATURES_PROVIDED += periph_i2c
+FEATURES_PROVIDED += periph_pwm
+FEATURES_PROVIDED += periph_spi
+FEATURES_PROVIDED += periph_uart
+FEATURES_PROVIDED += periph_usbdev
+FEATURES_PROVIDED += highlevel_stdio
+
+include $(RIOTBOARD)/common/nrf52/Makefile.features
