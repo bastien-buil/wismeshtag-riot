@@ -42,4 +42,4 @@ git submodule sync
 
 ## Running examples
 
-For now, one example has been implemented in [./examples/wismesh-test]([./examples/wismesh-test] to make a LED blink and react when pressing a button by making the second led bright up and play a sound using the buzzer.
+For now, one example has been implemented in [./examples/wismesh-test](./examples/wismesh-test) to make a LED blink and react when pressing a button by making the second led bright up and play a sound using the buzzer.
