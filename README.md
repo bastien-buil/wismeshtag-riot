@@ -1,6 +1,6 @@
 
 
-This repo contains some test to implement support of WisMesh Tag on RIOT OS.
+This repo contains some tests to implement support of WisMesh Tag on RIOT OS.
 
 > [!CAUTION]
 > The current implementation available in this repository has not been properly tested and may potentially brick your device. **Especially, battery-related functionality has not been yet implemented.** 
